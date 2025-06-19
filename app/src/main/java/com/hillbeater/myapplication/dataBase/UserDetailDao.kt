@@ -1,6 +1,7 @@
 package com.hillbeater.myapplication.dataBase
 
 import androidx.room.Dao
+import androidx.room.Delete
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
@@ -13,4 +14,7 @@ interface UserDetailDao {
 
     @Query("SELECT * FROM user_detail LIMIT 1")
     suspend fun getUserDetail(): UserDetail?
+
+    @Query("DELETE FROM user_detail")
+    suspend fun deleteUser()
 }

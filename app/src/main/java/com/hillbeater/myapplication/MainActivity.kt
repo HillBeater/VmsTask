@@ -136,7 +136,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private suspend fun deleteDataFromDb() {
-        AppDatabase.getDatabase(this).userDetailDao().getUserDetail()
+        AppDatabase.getDatabase(this).userDetailDao().deleteUser()
     }
 
     override fun onResume() {
