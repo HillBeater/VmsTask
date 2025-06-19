@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="is_working">Is Working</string>
+    <string name="date_of_birth">Date Of Birth</string>
+    <string name="company_name">Company Name</string>
+    <string name="email">Email</string>
+    <string name="last_name">Last Name</string>
+    <string name="first_name">First Name</string>
+    <string name="submit">Submit</string>
+</resources>
